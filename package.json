@@ -27,15 +27,14 @@
       "react-app/jest"
     ]
   },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "plugins": ["@svgr"],
+      "processor": "@svgr/webpack"
+    }
+  ],
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "overrides": {
-      "@svgr/webpack": "$@svgr/webpack"
-    },
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

@@ -28,7 +28,7 @@ export default function HelloBody() {
         <div className="plank_sec1">
           <div className="eleven-container">
             <img
-              style={{ width: "40rem" }}
+              style={{ width: "50%" }}
               className="eleven"
               src="images/eleven.jpg"
               alt=""
